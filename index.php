@@ -88,7 +88,7 @@ function returnOutcome($precipProbability){
                 <div class="forecast">
                     <h1>The Miata forecast</h1>
                     <div>
-                        <h3>Today</h3>
+                        <h3>24 hours</h3>
                         <span><?= returnOutcome($getWeatherData->daily->data[0]->precipProbability); ?></span>
                     </div>
                     <div>
